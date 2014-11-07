@@ -1,0 +1,28 @@
+{
+  "name": "express-request-metrics",
+  "version": "1.0.0",
+  "description": "gives you metrics at the end of a request",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "mocha --ui bdd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/timruffles/express-request-metrics.git"
+  },
+  "author": "Tim Ruffles <timruffles@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/timruffles/express-request-metrics/issues"
+  },
+  "homepage": "https://github.com/timruffles/express-request-metrics",
+  "devDependencies": {
+    "express": "^4.10.1",
+    "mocha": "^2.0.1",
+    "supertest": "^0.14.0"
+  }
+}
